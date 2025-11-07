@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grow from Garbage — Waste to Resource</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Grow from Garbage</a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#compost">Composting</a>
+        <a href="#upcycle">Upcycling</a>
+        <a href="#community">Community</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-controls">
+        <div class="lang-switch" aria-hidden="true">
+          <button>EN</button>
+          <button>हिं</button>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Grow from Garbage</h1>
+        <p class="lead">Turn household waste into healthy soil, useful crafts, and community value — simple steps for every home.</p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#compost">Start Composting</a>
+          <a class="btn ghost" href="#upcycle">Upcycle Ideas</a>
+          <a class="btn ghost" href="#community">Join a Workshop</a>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- small decorative SVG of compost/plant -->
+          <svg width="220" height="120" viewBox="0 0 220 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="60" width="216" height="50" rx="8" fill="#F1FDF7"/>
+            <g transform="translate(26,14)" fill="none" stroke="#0f766e" stroke-width="2">
+              <path d="M30 30 C30 10, 60 10, 60 30 S90 50, 60 70" stroke-linecap="round"/>
+              <path d="M45 25 C48 14, 70 12, 70 25" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="compost" class="features container">
+      <h2>Composting at Home</h2>
+      <p class="section-desc">Cold compost, pit compost, and vermicomposting — pick what fits your space and start turning kitchen scraps into nutrient-rich soil.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Kitchen Compost</h3>
+          <p>How to collect and store kitchen waste, what to avoid (oils, meat), and simple turnover tips for faster breakdown.</p>
+          <a class="card-link" href="#">Read Guide →</a>
+        </article>
+
+        <article class="card">
+          <h3>Vermicompost</h3>
+          <p>Using worms to speed decomposition — setup, feeding routine, and harvesting vermicompost tea for plants.</p>
+          <a class="card-link" href="#">Vermicompost Steps →</a>
+        </article>
+
+        <article class="card">
+          <h3>Pit & Community Bins</h3>
+          <p>Low-cost pits for villages and shared compost bays for neighborhoods — designs and maintenance schedules.</p>
+          <a class="card-link" href="#">Community Setup →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="upcycle" class="container growth">
+      <h2>Upcycle & Reuse</h2>
+      <p class="section-desc">Give waste a second life — planters from bottles, DIY cleaning rags, and creative crafts that sell or gift.</p>
+
+      <div class="grid-4">
+        <div class="feature-box">
+          <h4>Plastic Planters</h4>
+          <p>Convert bottles and containers into seedling pots and vertical gardens.</p>
+          <button class="small-btn">How to →</button>
+        </div>
+
+        <div class="feature-box">
+          <h4>Fabric Scraps</h4>
+          <p>Turn old clothes into useful kitchen cloths, bags and mats — step-by-step cutting patterns.</p>
+          <button class="small-btn">Tutorial →</button>
+        </div>
+
+        <div class="feature-box">
+          <h4>Glass & Paper</h4>
+          <p>Safe ways to clean and reuse jars and paper — storage ideas and craft projects for kids.</p>
+          <button class="small-btn">Ideas →</button>
+        </div>
+
+        <div class="feature-box">
+          <h4>Sell & Earn</h4>
+          <p>Simple products you can make and sell locally to generate extra income from waste.</p>
+          <button class="small-btn">Market Tips →</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="container support">
+      <h2>Community & Workshops</h2>
+      <div class="support-columns">
+        <div>
+          <h3>Local Workshops</h3>
+          <p>Learn hands-on: compost building, vermiculture, upcycle crafts. Find or host a workshop in your area.</p>
+        </div>
+
+        <div>
+          <h3>Share & Exchange</h3>
+          <p>Exchange compost, seedlings, and upcycled goods with neighbors to build local circular economy.</p>
+        </div>
+
+        <div>
+          <h3>Support & Tools</h3>
+          <p>Low-cost tools, seed distribution, and NGO programs that support waste-to-resource projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="container faq">
+      <h2>Common Questions</h2>
+
+      <div class="accordion">
+        <button class="acc-btn">What kitchen scraps can I compost? <span class="plus">+</span></button>
+        <div class="acc-panel">
+          <p>Vegetable peels, fruit waste, tea leaves, egg shells, soft paper. Avoid meat, dairy, oily foods and diseased plants.</p>
+        </div>
+
+        <button class="acc-btn">How long until compost is ready? <span class="plus">+</span></button>
+        <div class="acc-panel">
+          <p>Depending on method: 2-3 months (hot/aerated), 4–12 months for simple cold composting. Vermicompost can be quicker.</p>
+        </div>
+
+        <button class="acc-btn">Can I compost in small spaces? <span class="plus">+</span></button>
+        <div class="acc-panel">
+          <p>Yes — use a small bin or vermicompost tray. Even balcony setups work with proper drainage and regular turning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact & Join</h2>
+      <p>Want to start a local group or book a workshop? Email <a href="mailto:growfromgarbage@example.org">growfromgarbage@example.org</a> or call <strong>1800-GROW-GAR</strong>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Grow from Garbage — turning waste into wealth & soil.</p>
+    </div>
+  </footer>
+
+  <script>
+    // small scripts: mobile menu + accordion + year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const menuToggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+
+    // accordion
+    document.querySelectorAll('.acc-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+        const panel = btn.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
